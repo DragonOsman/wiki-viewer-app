@@ -9,24 +9,22 @@
   <title>Wikipedia Viewer App</title>
 </head>
 <body>
-  <section>
-    <div class="container-fluid">
-      <header>
-      <h1>Wikipedia Viewer App</h1>
-      </header>
-      <article class="search-position">
-        <p class="search-icon">
-          <input name="search" id="search" type="search">
-        </p>
-      </article>
-      <article class="random">
-        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
-          <button type="button" class="btn btn-primary">Click Here for a Random Article!</button>
-        </a>
-     </article>
-     <article class="results">
-     </article>
-   </div>
-  </section>
+  <div class="container-fluid">
+   <h1>Random Quote Machine</h1>
+  <div class="container container-fluid">
+    <p id="changeQuote" class="center"></p>
+    <div id="center">
+    <div class="row">
+    <div class="col-sm-4">
+    <button class="btn btn-primary" onclick="newQuote()">New Quote</button>
+    </div>
+    <div class="col-sm-4">
+      <a href="https://twitter.com/intent/tweet"><button class="btn btn-primary" onclick="tweetQuote()" target="_blank" id="tweet">Tweet a Quote</button></a>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  <script src="scripts/script.js"></script>
 </body>
 </html>
