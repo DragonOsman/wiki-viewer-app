@@ -11,6 +11,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #00080;
 }
 
 a:hover {
@@ -18,10 +19,11 @@ a:hover {
 }
 
 .resultItem {
-  background-color: #000;
+  background-color: #2f8dff;
   padding: 5px;
   margin-bottom: 2px;
   margin-left: 5px;
+  text-align: left;
 }
 
 #random {
